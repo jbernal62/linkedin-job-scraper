@@ -36,7 +36,7 @@ SUMMARY_DATA_AI = (
 )
 
 SKILLS_DEVOPS = {
-    "Cloud Platforms": "AWS (EC2, Lambda, S3, ECS, EKS, CloudFormation, Connect, Lex, DynamoDB, Aurora, Amplify, AppSync), Azure (AKS, Azure DevOps, Machine Learning, Sentinel, Front Door, Policy), GCP (Cloud Run, App Engine, Cloud Build, IAP, Cloud CDN, Pub/Sub, GKE)",
+    "Cloud Platforms": "AWS (EC2, Lambda, S3, ECS, EKS, CloudFormation, Connect, Lex, DynamoDB, Aurora, Amplify, AppSync), Azure (AKS, Azure DevOps, Databricks, Data Factory, Machine Learning, Sentinel, Front Door, Policy), GCP (Cloud Run, App Engine, Cloud Build, IAP, Cloud CDN, Pub/Sub, GKE)",
     "Infrastructure as Code & Automation": "Terraform, AWS CloudFormation, ARM Templates, Ansible, Pulumi",
     "DevOps & CI/CD": "Jenkins, GitHub Actions, Azure DevOps, AWS CodePipeline, Cloud Build, GitOps",
     "Containers & Orchestration": "Docker, Kubernetes (EKS, AKS, GKE), Helm, Container Registry",
@@ -49,8 +49,8 @@ SKILLS_DEVOPS = {
 
 SKILLS_DATA_AI = {
     "AI & Machine Learning": "Azure OpenAI, Azure Machine Learning, AutoML, Responsible AI, Generative AI (LLMs), Salesforce Einstein, Amazon Lex, NLP, Model Interpretability",
-    "Data Services": "DynamoDB, Aurora PostgreSQL (Babelfish), Google Pub/Sub, ETL Pipelines, S3 Data Lakes, Serverless Data Processing",
-    "Cloud Platforms": "AWS (Lambda, S3, DynamoDB, Aurora, Amplify, AppSync, Connect, Lex, SageMaker), Azure (Machine Learning, OpenAI, DevOps, Sentinel), GCP (Cloud Run, Pub/Sub, BigQuery, Cloud Build)",
+    "Data Engineering & Services": "Azure Databricks, Azure Data Factory, DynamoDB, Aurora PostgreSQL (Babelfish), Google Pub/Sub, ETL/ELT Pipelines, S3 Data Lakes, Data Modeling, Serverless Data Processing",
+    "Cloud Platforms": "AWS (Lambda, S3, DynamoDB, Aurora, Amplify, AppSync, Connect, Lex, SageMaker), Azure (Databricks, Data Factory, Machine Learning, OpenAI, DevOps, Sentinel), GCP (Cloud Run, Pub/Sub, BigQuery, Cloud Build)",
     "Serverless & Event-Driven": "AWS Lambda, API Gateway, AppSync (GraphQL), Cloud Run, Cloud Functions, EventBridge, S3 Event Triggers",
     "Infrastructure as Code": "Terraform, CloudFormation, ARM Templates, Ansible",
     "DevOps & CI/CD": "Jenkins, GitHub Actions, Azure DevOps, AWS CodePipeline, Cloud Build",
@@ -62,23 +62,23 @@ SKILLS_DATA_AI = {
 
 EXPERIENCE = [
     {
-        "title": "AWS Cloud Architect",
-        "company": "NeuraFlash",
-        "location": "USA (Remote)",
+        "title": "Senior Data Engineer",
+        "company": "Valtech",
+        "location": "Bogota, Colombia (Remote)",
         "dates": "May 2025 - Present",
         "bullets_devops": [
-            "Led the architecture and delivery of Amazon Connect-based contact center solutions for enterprise clients, aligning with NeuraFlash's strategic focus on AI-driven customer experiences.",
-            "Designed and deployed multi-service AWS architectures using Amazon Connect, Lambda, Lex, DynamoDB, S3, CloudFormation, and Contact Flows to modernize legacy telephony systems and improve agent productivity by over 30%.",
-            "Developed and optimized intelligent call routing strategies, leveraging Lex, Lambda, and DynamoDB, including queue prioritization, agent skill matching, and outbound campaign orchestration.",
-            "Utilized strong knowledge of cloud-native integration patterns, RESTful APIs, WebRTC, SIP, and WFM/CRM interoperability to drive seamless omnichannel experiences.",
-            "Contributed to strategic solution blueprints and proposals during pre-sales phases, actively influencing revenue growth through architecture thought leadership.",
+            "Designed and implemented large-scale data pipelines in Azure Databricks, optimizing ETL processes for performance and scalability.",
+            "Automated workflows using Azure Data Factory, integrating multiple sources into centralized data lakes.",
+            "Ensured compliance, governance, and security across cloud data environments.",
+            "Collaborated with cross-functional teams to define data models, improve data quality, and enable advanced analytics.",
+            "Contributed to client projects by delivering actionable insights through efficient big data solutions.",
         ],
         "bullets_data_ai": [
-            "Led the architecture and delivery of AI-driven contact center solutions using Amazon Connect, integrating generative AI capabilities for real-time agent assistance.",
-            "Integrated Salesforce Service Cloud with Amazon Connect and Agentforce, enabling unified customer views and generative AI capabilities through Salesforce Einstein and custom AI bots.",
-            "Designed intelligent NLP-powered call routing using Amazon Lex and Lambda, implementing natural language understanding for customer intent classification and automated response generation.",
-            "Performed technical discovery and ROI assessments, guiding clients in CCaaS transformation, identifying AI automation opportunities, and delivering cost-benefit analyses.",
-            "Led customer enablement workshops on AI-powered contact center best practices and created deployment documentation.",
+            "Designed and implemented large-scale data pipelines in Azure Databricks, optimizing ETL processes for performance and scalability.",
+            "Collaborated with cross-functional teams to define data models, improve data quality, and enable advanced analytics.",
+            "Automated workflows using Azure Data Factory, integrating multiple sources into centralized data lakes.",
+            "Ensured compliance, governance, and security across cloud data environments.",
+            "Contributed to client projects by delivering actionable insights through efficient big data solutions.",
         ],
     },
     {
