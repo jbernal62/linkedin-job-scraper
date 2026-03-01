@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+node_modules/
+cdk.out/
+lambda_layer/python/
+lambda_layer/layer.zip
+*.js
+!cdk.json
+.idea/
+.vscode/
+*.swp
+cdk_outputs.json
