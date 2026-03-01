@@ -55,7 +55,7 @@ class JobScraperStack(Stack):
             code=lambda_.Code.from_asset("lambda"),
             role=lambda_role,
             layers=[deps_layer],
-            timeout=Duration.seconds(300),
+            timeout=Duration.seconds(900),
             memory_size=512,
             environment={
                 "GOOGLE_SECRET_NAME": "invoice-tracker/google-sheets-credentials",

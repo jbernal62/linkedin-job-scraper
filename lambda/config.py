@@ -39,7 +39,7 @@ SENIORITY_KEYWORDS = {"senior", "lead", "principal", "staff", "head"}
 DATA_AI_KEYWORDS_SCORE = {"machine learning", "ai", "data", "ml", "llm", "genai", "nlp", "analytics", "deep learning"}
 
 # Max pages to scrape per keyword+location (25 results per page)
-MAX_PAGES = 4
+MAX_PAGES = 2
 
 # Delay between requests in seconds
-REQUEST_DELAY = 1.5
+REQUEST_DELAY = 0.8

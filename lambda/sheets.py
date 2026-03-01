@@ -164,7 +164,7 @@ def write_jobs_to_sheet(country: str, jobs: list[dict]):
     # Clear existing data rows (keep header)
     row_count = len(ws.get_all_values())
     if row_count > 1:
-        ws.delete_rows(2, row_count)
+        ws.batch_clear([f"A2:G{row_count}"])
 
     if not jobs:
         print(f"  No jobs found for {country}")
